@@ -37,7 +37,9 @@ gem 'spring',        group: :development
 
 gem 'nokogiri'
 gem 'moji'
-gem 'mysql2'
+gem 'mysql2', platforms: [:mingw, :mswin]
+# gem 'sqlite3'
+gem 'tzinfo-data'
 gem 'chronic'
 gem 'whenever'
 gem 'settingslogic'
